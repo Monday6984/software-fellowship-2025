@@ -1,0 +1,23 @@
+#itemList {
+  /* list-style-type: decimal; */
+  padding: 0;
+  color: beige;
+}
+#itemList li {
+  margin: 5px 0;
+}
+#itemList li:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+#itemList li.selected {
+  font-weight: bold;
+  color: orange;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
